@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #00cec9;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.container h1{
+    display: block;
+    font-size: 120px;
+    color: rgb(25, 124, 124);
+    text-shadow: 3px 2px 3px grey;
+    
+}
+
+#value {
+    display: block;
+    font-size: 250px;
+    color: #6c5ce7;
+}
+
+.btn {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    background: white;
+    border: 6px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: rgb(10, 230, 164);
+    background-color: #ff7675;
+    border: 5px double rgb(107, 90, 90);
+}
